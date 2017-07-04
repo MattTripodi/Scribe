@@ -12,6 +12,7 @@
 		EEF769FB1F0C109700DCF420 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF769F91F0C109700DCF420 /* Main.storyboard */; };
 		EEF769FD1F0C109700DCF420 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEF769FC1F0C109700DCF420 /* Assets.xcassets */; };
 		EEF76A001F0C109700DCF420 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEF769FE1F0C109700DCF420 /* LaunchScreen.storyboard */; };
+		EEF76A0B1F0C133000DCF420 /* CircleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEF76A0A1F0C133000DCF420 /* CircleButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		EEF769FC1F0C109700DCF420 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EEF769FF1F0C109700DCF420 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EEF76A011F0C109700DCF420 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEF76A0A1F0C133000DCF420 /* CircleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircleButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,14 +56,39 @@
 		EEF769F41F0C109700DCF420 /* Scribe */ = {
 			isa = PBXGroup;
 			children = (
+				EEF76A071F0C12F600DCF420 /* Model */,
+				EEF76A081F0C12FC00DCF420 /* View */,
+				EEF76A091F0C130000DCF420 /* Controller */,
 				EEF769F51F0C109700DCF420 /* AppDelegate.swift */,
-				EEF769F71F0C109700DCF420 /* ViewController.swift */,
 				EEF769F91F0C109700DCF420 /* Main.storyboard */,
 				EEF769FC1F0C109700DCF420 /* Assets.xcassets */,
 				EEF769FE1F0C109700DCF420 /* LaunchScreen.storyboard */,
 				EEF76A011F0C109700DCF420 /* Info.plist */,
 			);
 			path = Scribe;
+			sourceTree = "<group>";
+		};
+		EEF76A071F0C12F600DCF420 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		EEF76A081F0C12FC00DCF420 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EEF76A0A1F0C133000DCF420 /* CircleButton.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		EEF76A091F0C130000DCF420 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				EEF769F71F0C109700DCF420 /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEF76A0B1F0C133000DCF420 /* CircleButton.swift in Sources */,
 				EEF769F81F0C109700DCF420 /* ViewController.swift in Sources */,
 				EEF769F61F0C109700DCF420 /* AppDelegate.swift in Sources */,
 			);
